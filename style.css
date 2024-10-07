@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e09b3d, #f14d63);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: radial-gradient(circle at top left, #333, #111); 
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f0f0f0; 
+    color: #333;
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+button {
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+button.operation {
+    background: linear-gradient(135deg, #56ccf2, #2f80ed); 
+    color: white;
+}
+button.clear {
+    background: linear-gradient(135deg, #e53935, #e35d5b); 
+    color: white;
+    width: 80%;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
